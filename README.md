@@ -48,18 +48,16 @@ The workbook includes multiple dashboards categorized into the following analyti
 - `Qty`, `Currency`, `Amount`
 
 ### 🧠 Calculated Fields
-- `Currency1`: Standardized currency field  
-- `Total Quantity`, `Total Amount`, `Total Sizes`, `Total Categories`, `Total Product`: Aggregated metrics used in KPIs
+- `Currency1`: Standardized currency field.  
+- `Total Quantity`, `Total Amount`, `Total Sizes`, `Total Categories`, `Total Product`: Aggregation metrics for dashboard KPIs.
 
 ---
 
 ## 🛠️ Requirements
 
-- **Software**: [Tableau Desktop](https://www.tableau.com/products/desktop)  
-  _Recommended Version: 2021.4 or later_
+- **Software**: [Tableau Desktop](https://www.tableau.com/products/desktop)  _Recommended Version: 2021.4 or later_
 
-- **Data Source**:  
-  Ensure that the local data file used in the Tableau workbook is available and connected when prompted.
+- **Data Source**: Ensure that the local data file used in the Tableau workbook is available and connected when prompted.
 
 ---
 
@@ -69,4 +67,14 @@ The workbook includes multiple dashboards categorized into the following analyti
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/amazon-sales-dashboard.git
+   git clone https://github.com/piyushmtech2252/Amazon-Sales-in-India-Dashboard.git
+2. Extract the Dataset- Amazon Sale Report.rar archive to retrieve the raw data file (CSV/Excel).
+3. Open `Amazon Sales in India Dashboard.twb` using Tableau Desktop.
+
+If Tableau prompts for missing data:
+
+Go to Data → Edit Connection
+
+Re-link the workbook to the extracted data file
+
+Use filters (e.g., Category, Date, State) to interact with the dashboard.
