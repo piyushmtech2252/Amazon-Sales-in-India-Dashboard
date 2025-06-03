@@ -86,8 +86,8 @@ The workbook includes multiple dashboards categorized into the following analyti
 ## 📬 Author
 
 **Piyush Agarwal**
-M.Tech in Software Engineering
-Delhi Technological University
-📧 piyushmtech2252@gmail.com
+-M.Tech in Software Engineering
+-Delhi Technological University
+-📧 piyushmtech2252@gmail.com
 
 
