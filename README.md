@@ -1,13 +1,15 @@
-# 📈 Amazon Sales in India Dashboard
+#  Amazon Sales in India Dashboard
 
-This repository contains a **Tableau workbook** that visualizes Amazon India sales data using a series of interactive dashboards. The primary goal of the project is to uncover **sales trends**, **product performance**, and **logistics insights** from e-commerce transaction data.
+This repository contains a **Tableau workbook** that visualizes Amazon India sales data using a series of interactive dashboards. The primary goal of the project is to uncover **sales trends**, **product performance**, and **logistics insights** from e-commerce transaction data.   
+
+      
 
 
 
 
 ---
 
-## 📁 Repository Contents
+##  Repository Contents
 
 - **Amazon Sales in India Dashboard.twb**  
   Tableau workbook file containing all dashboards, worksheets, and calculated fields.
@@ -18,22 +20,22 @@ This repository contains a **Tableau workbook** that visualizes Amazon India sal
 
 ---
 
-## 📊 Dashboard Overview
+##  Dashboard Overview
 
 The workbook includes multiple dashboards categorized into the following analytical areas:
 
-### 1. 🌐 Geospatial Analysis
+### 1.  Geospatial Analysis
 - **Map of Quantity by State**: Choropleth map visualizing quantity of items shipped across Indian states.
 
-### 2. 📅 Temporal and Category-Based Trends
+### 2.  Temporal and Category-Based Trends
 - **Bar Chart – Quantity by Week and Category**  
 - **Line Chart – Amount by Week and Category**
 
-### 3. 📦 Product-Level Analysis
+### 3.  Product-Level Analysis
 - **Bar Chart – Quantity by Size and Category**  
 - **Bar Chart – Top 12 States by Quantity and Category - Ship Service Level**
 
-### 4. 🚚 Logistics and Fulfilment
+### 4.  Logistics and Fulfilment
 - **Bar Chart – Quantity by Status and Category**  
 - **Donut Chart – Quantity by Courier Status and Category**  
 - **Square Chart – Quantity by Sales Channel and Category**  
@@ -41,21 +43,21 @@ The workbook includes multiple dashboards categorized into the following analyti
 
 ---
 
-## 🧮 Data Dictionary
+##  Data Dictionary
 
-### 📐 Dimensions
+###  Dimensions
 - `Index`, `Order ID`, `Date`, `Status`, `Fulfilment`, `Sales Channel`, `Ship-Service-Level`, `Style`, `SKU`, `Category`, `Size`, `ASIN`, `Courier Status`, `Ship-City`, `Ship-State`, `Ship-Postal-Code`, `Ship-Country`, `Promotion-Ids`, `B2B`, `Fulfilled-By`
 
-### 📊 Measures
+###  Measures
 - `Qty`, `Currency`, `Amount`
 
-### 🧠 Calculated Fields
+###  Calculated Fields
 - `Currency1`: Standardized currency field.  
 - `Total Quantity`, `Total Amount`, `Total Sizes`, `Total Categories`, `Total Product`: Aggregation metrics for dashboard KPIs.
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 - **Software**: [Tableau Desktop](https://www.tableau.com/products/desktop)  _(Recommended Version: 2021.4 or later)_
 
@@ -63,7 +65,7 @@ The workbook includes multiple dashboards categorized into the following analyti
 
 ---
 
-## 🚀 Deployment Instructions
+##  Deployment Instructions
 
 1. Clone or download this repository:
    ```bash
@@ -77,13 +79,13 @@ The workbook includes multiple dashboards categorized into the following analyti
 
 ---
 
-## 🖼️ Dashoard Preview
+##  Dashoard Preview
 
 ![Sample Image](Dashboard.png)
 
 ---
 
-## 📬 Author
+##  Author
 
 **Piyush Agarwal**  
 M.Tech in Software Engineering  
