@@ -3,6 +3,8 @@
 This repository contains a **Tableau workbook** that visualizes Amazon India sales data using a series of interactive dashboards. The primary goal of the project is to uncover **sales trends**, **product performance**, and **logistics insights** from e-commerce transaction data.
 
 
+
+
 ---
 
 ## 📁 Repository Contents
@@ -55,7 +57,7 @@ The workbook includes multiple dashboards categorized into the following analyti
 
 ## 🛠️ Requirements
 
-- **Software**: [Tableau Desktop](https://www.tableau.com/products/desktop)  _Recommended Version: 2021.4 or later_
+- **Software**: [Tableau Desktop](https://www.tableau.com/products/desktop)  _(Recommended Version: 2021.4 or later)_
 
 - **Data Source**: Ensure that the local data file used in the Tableau workbook is available and connected when prompted.
 
@@ -63,18 +65,29 @@ The workbook includes multiple dashboards categorized into the following analyti
 
 ## 🚀 Deployment Instructions
 
-### ✅ Local Deployment
-
 1. Clone or download this repository:
    ```bash
    git clone https://github.com/piyushmtech2252/Amazon-Sales-in-India-Dashboard.git
 2. Extract the Dataset- Amazon Sale Report.rar archive to retrieve the raw data file (CSV/Excel).
 3. Open `Amazon Sales in India Dashboard.twb` using Tableau Desktop.
+4. If Tableau prompts for missing data:
+   - Go to Data → Edit Connection
+   - Re-link the workbook to the extracted data file
+5. Use filters (e.g., Category, Date, State) to interact with the dashboard.
 
-If Tableau prompts for missing data:
+---
 
-Go to Data → Edit Connection
+## 🖼️ Dashoard Preview
 
-Re-link the workbook to the extracted data file
+![Sample Image](Dashboard.png)
 
-Use filters (e.g., Category, Date, State) to interact with the dashboard.
+---
+
+## 📬 Author
+
+**Piyush Agarwal**
+M.Tech in Software Engineering
+Delhi Technological University
+📧 piyushmtech2252@gmail.com
+
+
