@@ -1,6 +1,7 @@
 # 📈 Amazon Sales in India Dashboard
 
-This **Tableau** project provides a comprehensive dashboard that visualizes  **Amazon sales data** across various states in India. The dashboard is built to offer actionable insights into **sales performance**, **trends**, and **shipping metrics** using real-world e-commerce data
+This repository contains a **Tableau workbook** that visualizes Amazon India sales data using a series of interactive dashboards. The primary goal of the project is to uncover **sales trends**, **product performance**, and **logistics insights** from e-commerce transaction data.
+
 
 ---
 
@@ -8,8 +9,10 @@ This **Tableau** project provides a comprehensive dashboard that visualizes  **A
 
 - **Amazon Sales in India Dashboard.twb**  
   Tableau workbook file containing all dashboards, worksheets, and calculated fields.
-- **Amazon Sales in India Dashboard.twb**  
-  Tableau workbook file containing all dashboards, worksheets, and calculated fields.
+- **Dashboard.png**  
+  Image preview of the full dashboard.
+- **Dataset- Amazon Sale Report.rar**  
+  Compressed archive of the original data source (.csv).
 
 ---
 
@@ -18,8 +21,7 @@ This **Tableau** project provides a comprehensive dashboard that visualizes  **A
 The workbook includes multiple dashboards categorized into the following analytical areas:
 
 ### 1. 🌐 Geospatial Analysis
-- **Map of Quantity by State**:  
-  A choropleth map showing the quantity of items shipped across Indian states.
+- **Map of Quantity by State**: Choropleth map visualizing quantity of items shipped across Indian states.
 
 ### 2. 📅 Temporal and Category-Based Trends
 - **Bar Chart – Quantity by Week and Category**  
