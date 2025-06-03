@@ -1,11 +1,13 @@
 # 📈 Amazon Sales in India Dashboard
 
-This repository contains a **Tableau workbook** that visualizes Amazon India sales data using a series of interactive dashboards. The primary goal of the project is to uncover **sales trends**, **product performance**, and **logistics insights** from e-commerce transaction data.
+This **Tableau** project provides a comprehensive dashboard that visualizes  **Amazon sales data** across various states in India. The dashboard is built to offer actionable insights into **sales performance**, **trends**, and **shipping metrics** using real-world e-commerce data
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Contents
 
+- **Amazon Sales in India Dashboard.twb**  
+  Tableau workbook file containing all dashboards, worksheets, and calculated fields.
 - **Amazon Sales in India Dashboard.twb**  
   Tableau workbook file containing all dashboards, worksheets, and calculated fields.
 
